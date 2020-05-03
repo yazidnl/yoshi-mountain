@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #181810;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50 auto 0 auto;
+  font-family: 'Leckerli One', cursive;
+  color: #e4dcad;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #653614;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2c7873;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  width: 70px;
+  border-top: 10px dotted #e4dcad;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #2c7873
+}
+
+a:hover {
+  color: #e4dcad;
+}
+
+.top-container {
+  background-color: #062121;
+  position: relative;
+  padding-top: 100px;
+}
+
+.subtitle {
+  font-weight: normal;
+  color: #eeeeee;
+}
+
+.mountain {
+  position: relative;
+  top: 4px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.middle-container {
+  background-color: #eeeeee;
+}
+
+.profile-picture {
+  margin-top: 100px;
+}
+
+.profile {
+  margin-bottom: 100px;
+}
+
+.intro-text {
+  width: 60%;
+  margin: auto;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.music {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  top: 8px;
+}
+
+.photography {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  top: 8px;
+}
+
+.skill-row-music {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  }
+
+.skill-row-photography {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+
+.contact-me {
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+.final-text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #653614;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #e4dcad;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
